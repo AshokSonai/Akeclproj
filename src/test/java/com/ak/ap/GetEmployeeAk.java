@@ -8,6 +8,8 @@ public class GetEmployeeAk {
 	@Test
 	public void ngtst() {
 		
+		System.out.println("Gitgub Commit");
+		
 		String s=ngtstStr();
 		
 		System.out.println(s+"ak");
