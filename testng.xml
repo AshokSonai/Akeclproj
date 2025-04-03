@@ -1,0 +1,10 @@
+
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Cucumber Parallel Tests" parallel="tests" thread-count="5" verbose="2">
+    <test name="Login Tests">
+        <classes>
+            <class name="aklog.Runner"/>
+        </classes>
+    </test>
+</suite>
